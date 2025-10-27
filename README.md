@@ -47,3 +47,55 @@ flowchart TD
     B --> C[AWS Lambda Golang]
     C --> D[(Amazon RDS PostgreSQL)]
     C --> E[S3 Armazenamento de mídias]
+```
+
+## 🛠️ Stack Planejada
+
+| **Camada** | **Tecnologia / Serviço** | **Descrição** |
+|-------------|---------------------------|----------------|
+| **Frontend** | PWA (Vercel + HTML/CSS/JS + Framework futuro) | Interface leve e responsiva acessível via navegador. |
+| **Backend** | Go (Golang) + AWS Lambda | Lógica de negócio e APIs serverless. |
+| **Banco de Dados** | Amazon RDS (PostgreSQL) | Armazenamento de dados estruturados. |
+| **Armazenamento de Mídias** | Amazon S3 | Armazenamento de imagens e fotos de evolução. |
+| **API Gateway** | AWS API Gateway | Intermediário entre o PWA e as funções Lambda. |
+| **Infraestrutura** | AWS Cloud (Free Tier) | Base inicial para hospedagem e testes do MVP. |
+
+---
+
+## 🧠 Visão Futura
+
+Após o MVP, o **EvoluFit** poderá evoluir com:
+
+- 📊 **Dashboards personalizados** com métricas de performance;  
+- 🧬 **Integrações com APIs externas** (Google Fit, Samsung Health, Apple Health);  
+- 🧑‍🤝‍🧑 **Módulo social** para competições entre usuários;  
+- 🔒 **Autenticação segura** e gestão de perfis;  
+- ☁️ **Deploy automatizado** e CI/CD com GitHub Actions e AWS.
+
+---
+
+## 👥 Equipe
+
+O projeto está sendo desenvolvido por:
+
+| **Integrante** | **Função** |
+|----------------|------------|
+| [**Skdevr**](https://github.com/Skdevr) | Infraestrutura & DevOps |
+| [**wxn777**](https://github.com/wxn777) | Backend (Go) |
+| [**Phepyn1**](https://github.com/Phepyn1) | Frontend & UI/UX |
+
+---
+
+## 🗓️ Progresso
+
+| **Etapa** | **Status** | **Observação** |
+|------------|------------|----------------|
+| Planejamento de arquitetura | ✅ | Definida e validada |
+| Preparação da AWS | ⚙️ | Em fase inicial |
+| Desenvolvimento do backend (Go) | ⏳ | Ainda não iniciado |
+| Integração PWA + API | ⏳ | Aguardando backend |
+| MVP funcional | 🔜 | Meta da próxima fase |
+
+---
+
+💡 *Este repositório faz parte da fase inicial do desenvolvimento do EvoluFit, focando na consolidação da infraestrutura em nuvem e nas bases para o MVP.*
