@@ -80,9 +80,9 @@ O projeto está sendo desenvolvido por:
 
 | **Integrante** | **Função** |
 |----------------|------------|
-| [**Skdevr**](https://github.com/Skdevr) | Infraestrutura & DevOps |
+| [**Skdevr**](https://github.com/Skdevr) | AWS, DevOps & Appsec |
 | [**wxn777**](https://github.com/wxn777) | Backend (Go) |
-| [**Phepyn1**](https://github.com/Phepyn1) | Frontend & UI/UX |
+| [**Phepyn1**](https://github.com/Phepyn1) | Banco de Dados, Front-end |
 
 ---
 
